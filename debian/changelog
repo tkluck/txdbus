@@ -1,5 +1,5 @@
-txdbus (1.0.15-1) unstable; urgency=medium
+txdbus (1.0.15~git1-1) zesty; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Timo Kluck <tkluck@infty.nl>  Tue, 04 Jul 2017 09:08:41 +0200
