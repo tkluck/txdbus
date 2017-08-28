@@ -2,7 +2,7 @@ Source: txdbus
 Section: python
 Priority: optional
 Maintainer: Timo Kluck <tkluck@infty.nl>
-Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools
+Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools, python-twisted, python3-twisted
 Standards-Version: 3.9.8
 Homepage: https://github.com/cocagne/txdbus
 X-Python-Version: >= 2.6

@@ -1,3 +1,9 @@
+txdbus (1.0.15~git1-2) zesty; urgency=medium
+
+  * Fix build dependencies (python{,3}-twisted)
+
+ -- Timo Kluck <tkluck@infty.nl>  Mon, 28 Aug 2017 16:44:32 +0200
+
 txdbus (1.0.15~git1-1) zesty; urgency=medium
 
   * Initial release
