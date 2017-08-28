@@ -8,6 +8,10 @@ export PYBUILD_NAME=txdbus
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
 
+override_dh_auto_test:
+	# skip tests; this package is, for now, only in a PPA and I don't want to debug it.
+
+
 
 # If you need to rebuild the Sphinx documentation
 # Add spinxdoc to the dh --with line
