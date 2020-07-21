@@ -6,7 +6,7 @@
 export PYBUILD_NAME=txdbus
 
 %:
-	dh $@ --with python2,python3 --buildsystem=pybuild
+	dh $@ --with python3 --buildsystem=pybuild
 
 override_dh_auto_test:
 	# skip tests; this package is, for now, only in a PPA and I don't want to debug it.

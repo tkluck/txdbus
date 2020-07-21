@@ -2,21 +2,12 @@ Source: txdbus
 Section: python
 Priority: optional
 Maintainer: Timo Kluck <tkluck@infty.nl>
-Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools, python-twisted, python3-twisted
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools, python3-twisted
 Standards-Version: 3.9.8
 Homepage: https://github.com/cocagne/txdbus
-X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
 Vcs-Git: https://github.com/cocagne/txdbus.git
 Vcs-Browser: https://github.com/cocagne/txdbus
-
-Package: python-txdbus
-Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}
-Suggests: python-txdbus-doc
-Description: Native Python implementation of DBus for Twisted (Python 2)
- .
- This package installs the library for Python 2.
 
 Package: python3-txdbus
 Architecture: all
